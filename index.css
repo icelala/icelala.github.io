@@ -1,0 +1,272 @@
+*{
+    padding : 0px;
+    margin : 0px;
+}
+
+body {
+    background-image : url("image/background.jpg");
+}
+
+button {
+    color : white;
+    background-color: red;
+    font-weight: bold;
+    border : 1px solid black;
+    box-shadow: 0px 5px 32px 9px #000000;
+    text-align: center;
+}
+
+.top{
+    background-color : rgba(0,0,0, 0.75);
+    width : 100%;
+    height: 426px;
+}
+
+.content{
+    margin: 0px 46px;
+}
+
+/*account*/
+.account{
+    display: inline-flex;
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+
+i, p{
+    color: white;
+}
+
+.account i{
+    font-size : 32px;
+    vertical-align: middle;
+    margin-right : 5px;
+}
+
+.account p{
+    font-size : 13px;
+    font-weight : bold;
+}
+
+.sign_in {
+    margin-right : 24px;
+}
+
+/*track order*/
+.track_order{
+    display:inline;
+    border : 1px solid;
+}
+
+.track_order img{
+    float : left;
+    width: 100px;
+    height : 100px;
+    margin-right : 25px;
+}
+
+.track_order p{
+    font-size: 40px;
+}
+
+/*logo*/
+.haha_logo{
+    position: absolute;
+    top:79px;
+    left:410px;
+    width:240px;
+    height:95px;
+}
+
+.chef_logo{
+    position: absolute;
+    top:51px;
+    left:641px;
+    width:205px;
+    height:170px;
+    
+}
+
+/*button*/
+.content .button{
+    position: absolute;
+    top:83px;
+    left:943px;
+}
+
+.button button {
+    width:205px;
+    height:125px;
+    font-size:32px;
+}
+
+.line{
+    position: relative;
+    top:53px;
+    
+}
+
+/*nav*/
+
+.top ul {
+    position: relative;
+    top:53px;
+    margin-left: 72px;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+li{
+    float:left;
+    list-style-type:none;
+    padding: 10px 51px;
+}
+
+li img{
+    width:150px;
+    height:100px;
+}
+
+li p{
+    font-size:24px;
+    font-weight: bold;
+    text-align: center;
+    width:150px;
+    height:27px;
+    color:grey;
+}
+
+li .recommend{
+    color:white;
+}
+
+ul hr{
+    position: absolute;
+    border-left: 1px solid white;
+    width:0px;
+    height:161px;
+}
+
+.breakfast{
+    left:252px;
+}
+
+.lunch{
+    left:504px;
+}
+
+.dinner{
+    left:756px;
+}
+
+/*meal*/
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin : 0px 3%;
+}
+
+.meal{
+    background-color : rgba(0,0,0, 0.75);
+    margin:30px 18px;
+    width:578px;
+    height:300px;
+}
+
+.meal img{
+    float : left;
+    margin: 30px 0px 0px 30px;
+    width: 235px;
+    height: 165px;
+}
+
+.meal div{
+    display: inline-block;
+    width: 235px;
+    height: 165px;
+    margin: 30px 0px 0px 30px;
+}
+
+.meal p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.meal .price{
+    display: inline-block;
+    margin: 45px 0px 0px 30px;
+}
+
+.meal button{
+    margin-left:300px;
+    width:138px;
+    height:55px;
+    font-size:18px;
+    text-decoration: none;
+}
+
+.notation{
+    margin-top: 4px;
+    margin-bottom: 35px;
+    font-size: 32px;
+    margin-left:46px;
+}
+
+footer{
+    background-color : rgba(0,0,0, 0.75);
+    width : 100%;
+    height: 163px;
+}
+
+.bottom{
+    margin-left: 46px;
+    margin-right: 92px;
+}
+
+.bottom p{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.copyright{
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.hotline{
+    font-size: 20px;
+    margin-right: 68px;
+}
+
+.hotline i{
+    font-size: 32px;
+}
+
+.connect{
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+.connect i{
+    font-size: 32px;
+    margin: 0px 5px;
+}
+
+.line2{
+    margin-top: 25px;
+    border-color: black;
+}
+
+.service{
+    text-align: center;
+}
+
+.service p{
+    color: #f1c232;
+    margin: 0px 10px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 24px;
+}
